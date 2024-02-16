@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  text-align: center;
+  background-image: url(https://e0.pxfuel.com/wallpapers/680/351/desktop-wallpaper-notebook-paper.jpg);  
+             background-size: cover;
+             background-position: center;
+             scroll-behavior:smooth;
+             margin: 0;
+             padding: 10px 10px;
+             display: flex;
+            justify-content:space-around; 
+}
+
+#inner{
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content:center; */
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.144);
+  backdrop-filter: blur(5px);
+  margin: 0 auto;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
