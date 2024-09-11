@@ -10,7 +10,7 @@
  - Copyright &copy; 2024 My Notes App.
           
 
-### Check : https://heroic-dragon-9da2ad.netlify.app/
+### Check : https://wonderful-fairy-7e64e3.netlify.app/
 
 ## Getting Started
 

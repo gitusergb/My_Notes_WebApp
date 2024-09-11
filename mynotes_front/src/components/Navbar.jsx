@@ -35,16 +35,16 @@ export const Navbar = (noteID) => {
         <>
           <Link to={"/notes"}>Notes</Link>
           <Link to={"/create"}>Create Note</Link>
-
+          <button onClick={handleLogout}>Logout</button>
         </>
       ) : (
         <>
           <Link to={"/login"}>Login</Link>
           <Link to={"/register"}>Sign Up</Link>
-     
+         
         </>
       )}
-      <button onClick={handleLogout}>Logout</button>
+    
       <ToastContainer />
     </DIV>
   );
